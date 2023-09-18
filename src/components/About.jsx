@@ -40,7 +40,7 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-        <div>
+        <div  >
 <div className="absolute -left-72 -bottom-8 rotate-12 mix-blend-color-dodge animate-pulse duration-75 z-10 w-[200px] xl:w-[260px]">
     <img src={'/bulb.png'} width={260} height={200} className="w-full h-full" alt="" />
   </div>

@@ -5,6 +5,9 @@ import { styles } from "../style";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
+import {RiYoutubeLine, RiInstagramLine, RiFacebookBoxLine, RiDribbbleLine, RiBehanceLine, RiPinterestLine} from 'react-icons/ri'
+
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -47,8 +50,18 @@ const Navbar = () => {
            <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Valeriu &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+            <span className='sm:block hidden'> | </span>
+            <div className="flex items-center gap-x-5 text-lg ">
+    <a href={''} className="hover:text-accent transition-all duration-300"> <RiYoutubeLine /></a>
+    <a href={''} className="hover:text-accent transition-all duration-300"> <RiInstagramLine /></a>
+    <a href={''} className="hover:text-accent transition-all duration-300"> <RiFacebookBoxLine /></a>
+    <a href={''} className="hover:text-accent transition-all duration-300"> <RiBehanceLine /></a>
+    <a href={''} className="hover:text-accent transition-all duration-300"> <RiDribbbleLine /></a>
+    <a href={''} className="hover:text-accent transition-all duration-300"> <RiPinterestLine /></a>
+   
+  </div>
           </p>
+
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>

@@ -81,10 +81,10 @@ import {
   ];
   
   const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
+    // {
+    //   title: "Web Developer",
+    //   icon: web,
+    // },
     {
       title: "Angular Developer",
       icon: mobile,

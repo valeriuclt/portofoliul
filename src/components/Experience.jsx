@@ -12,8 +12,11 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
+import { ParticlesContainer } from './canvas';
+
 const ExperienceCard = ({ experience }) => {
   return (
+    
     <VerticalTimelineElement
       contentStyle={{
          background: "#1d1836",
@@ -61,6 +64,7 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
    <>
+   <ParticlesContainer />
   <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center `}>
           What I have done so far
