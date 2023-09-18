@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-parallax-tilt";
+// import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { TitleText } from './index';
@@ -7,8 +7,8 @@ import {   TypingText } from './index';
 import { styles } from "../style";
 import { useState } from 'react';
 import { ExploreCard } from "./index";
-import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+// import { SectionWrapper } from "../hoc";
+// import { projects } from "../constants";
 import { fadeIn, textVariant,staggerContainer } from "../utils/motion";
 import { exploreWorlds } from "../constants";
 

@@ -1,5 +1,5 @@
 import { useState } from 'react' ;
- import './index.css'
+//  import './index.css'
 import { BrowserRouter } from "react-router-dom";
 
 // import { styles } from "./style";

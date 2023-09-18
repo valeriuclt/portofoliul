@@ -30,7 +30,7 @@ const aboutData = [
           <FaJs />,
           <FaReact />,
           <SiNextdotjs />,
-          <SiFramer />,
+
           <FaWordpress />,
         ],
       },
@@ -40,19 +40,19 @@ const aboutData = [
       },
     ],
   },
-  {
-    title: 'awards',
-    info: [
-      {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
-      },
-      {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
-      },
-    ],
-  },
+  // {
+  //   title: 'awards',
+  //   info: [
+  //     {
+  //       title: 'Webby Awards - Honoree',
+  //       stage: '2011 - 2012',
+  //     },
+  //     {
+  //       title: 'Adobe Design Achievement Awards - Finalist',
+  //       stage: '2009 - 2010',
+  //     },
+  //   ],
+  // },
   {
     title: 'experience',
     info: [
@@ -96,9 +96,9 @@ const Hero = () => {
   console.log(index);
 
   return (
-    <section className={`${styles.paddings}`} >
+    <section className={`${styles.padding} ` } >
 
-      <div className="h-full bg-primary/30 py-32 px-32 text-center xl:text-left ">
+      <div className="h-full w-full bg-primary/30 py-16 px-12  ">
 
         {/* avatar img  */}
         {/* <motion.div variants={fadeIn('right', 0.2)} initial='hidden' animate='show' exit='hidden' className="hidden xl:flex absolute bottom-0 -left-[370px]">
@@ -106,7 +106,8 @@ const Hero = () => {
 </motion.div> */}
          
       
-        <div className="container  h-full  flex flex-col items-center xl:flex-row  xl:px-32  gap-x-12  ">
+        <div className="container w-full h-full  flex flex-col items-center xl:flex-row  xl:px-32  gap-x-12  ">
+   
          
           {/* textul  */}
           <div className="flex-1 flex flex-col justify-center ">
@@ -127,6 +128,7 @@ const Hero = () => {
             <motion.h2 variants={fadeIn('right', 0.2)} initial='hidden' animate='show' exit='hidden' className="h2">
               Captivating <span className="text-accent">stories</span> birth magnificent designs.
             </motion.h2>
+           
             <motion.p
               variants={fadeIn('right', 0.4)} initial='hidden' animate='show' exit='hidden'
               className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
@@ -138,7 +140,7 @@ const Hero = () => {
           {/* info  */}
           <motion.div
             variants={fadeIn('left', 0.4)} initial='hidden' animate='show' exit='hidden'
-            className="flex flex-col w-full pt-16 pl-12 xl:max-w-[48%] h-[480px] ">
+            className="hidden xl:flex flex-col xl:max-w-[50%]  bg-white/30 w-full xl:justify-between xl:h-[480px]">
             <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-2 ">
               {aboutData.map((item, itemIndex) => {
                 return (
@@ -152,6 +154,7 @@ const Hero = () => {
                   </div>)
               })}
             </div>
+            
             <div className=" py-2 xl:py-2 flex flex-col gap-y-2 xl:gap-y-2 items-center xl:items-start ">
               {aboutData[index].info.map((item, itemIndex) => {
                 return (
@@ -172,12 +175,13 @@ const Hero = () => {
                 );
               })}
             </div>
+           
              <div className="hidden xl:flex py-12 px-24 ">   
          
-            <div className="flex justify-center xl:hidden relative">
+            {/* <div className="flex justify-center xl:hidden relative">
              <ProjectsBtn />
             
-             </div>
+             </div> */}
 
           <motion.div
             variants={fadeIn('down', 0.4)}
@@ -194,7 +198,7 @@ const Hero = () => {
         {/* counters  */}
         <motion.div
           variants={fadeIn('right', 0.6)} initial='hidden' animate='show' exit='hidden'
-          className="hidden md:flex md:max-w-xl xl:max-w-none  xl:px-32 mb-8">
+          className=" pl-4 xl:px-28 mb-8">
           <div className="flex flex-1 xl:gap-x-6">
             {/* experienta  */}
             <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
