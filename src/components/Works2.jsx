@@ -25,7 +25,7 @@ const Works2 = () => {
       >
         <TypingText title="| Work" textStyles="text-center" />
         <TitleText
-          title={<>Choose the site you want <br className="md:block hidden" /> to explore</>}
+          title={<>Choose the site you want <br className="md:block hidden" /> to  <span className='text-[#4dee60]'>explore</span></>}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-3">

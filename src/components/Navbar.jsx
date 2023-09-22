@@ -44,17 +44,17 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <div className='text-white text-[18px] font-bold cursor-pointer flex '>
             Valeriu &nbsp;
             <span className='sm:block hidden'> | </span>
             <div className="flex items-center gap-x-5 text-lg ">
-              <a href={''} className="hover:text-accent transition-all duration-300"> <RiYoutubeLine /></a>
-              <a href={''} className="hover:text-accent transition-all duration-300"> <RiInstagramLine /></a>
-              <a href={''} className="hover:text-accent transition-all duration-300"> <RiFacebookBoxLine /></a>
-              <a href={''} className="hover:text-accent transition-all duration-300"> <RiBehanceLine /></a> 
+              <div className="hover:text-[#4dee60] transition-all duration-300"> <RiYoutubeLine /></div>
+              <div className="hover:text-[#4dee60] transition-all duration-300"> <RiInstagramLine /></div>
+              <div className="hover:text-[#4dee60] transition-all duration-300"> <RiFacebookBoxLine /></div>
+              <div className="hover:text-[#4dee60] transition-all duration-300"> <RiBehanceLine /></div> 
 
             </div>
-          </p>
+          </div>
 
         </Link>
 
