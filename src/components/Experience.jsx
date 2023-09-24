@@ -37,9 +37,9 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className='text-white text-[20px] font-bold'>{experience.title}</h3>
+        <h3 className='text-white xl:text-[18px] text-[13px] font-bold'>{experience.title}</h3>
         <p
-          className='text-secondary xl:text-[13px] text-[10px] font-semibold'
+          className='text-secondary xl:text-[14px] text-[10px] font-semibold'
           style={{ margin: 0 }}
         >
           {experience.company_name}
@@ -50,7 +50,7 @@ const ExperienceCard = ({ experience }) => {
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='text-white-100  xl:text-[14px] text-[10px] pl-1 tracking-wider'
+            className='text-white-100  xl:text-[14px] text-[9px] pl-1 tracking-wider'
           >
             {point}
           </li>
@@ -63,11 +63,9 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return (
-   <>
-  <motion.div variants={textVariant()}>
-        {/* <p className={`${styles.sectionSubText} text-center `}>
-          What I have done so far
-        </p> */}
+   <  >
+  <motion.div variants={textVariant()} >
+      
         <TypingText title="| What I have done so far" textStyles="text-center" />
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Experience<span className='text-[#4dee60]'>:</span>

@@ -125,7 +125,7 @@ const Hero = () => {
             <motion.p
               variants={fadeIn('right', 0.4)} initial='hidden' animate='show' exit='hidden'
               className="max-w-[600px] mx-auto pt-4 xl:mx-0 mb-6 xl:mb-12  xl:px-0 text-[13px] xl:text-[17px]">
-              Some years ago, I began freelancing as a developer . Since than, i 've done remote work for agencies, consulted for startups and collaborated on digital products for bussiness and consumer use. '
+              Some years ago, I began freelancing as a developer . Since than, i 've done remote work for agencies, consulted for startups and collaborated on digital products for bussiness and consumer use.
             </motion.p>
             </div>
 
@@ -133,7 +133,7 @@ const Hero = () => {
           {/* info  */}
           <motion.div
             variants={fadeIn('left', 0.4)} initial='hidden' animate='show' exit='hidden'
-            className="bg-white/30 xl:flex xl:pl-24 xl:pt-24 pt-8 pl-8 flex-col xl:max-w-[50%] w-full xl:justify-between xl:h-[480px] ">
+            className=" xl:flex xl:pl-24 xl:pt-24 pt-8 pl-4 flex-col xl:max-w-[50%] w-full xl:justify-between xl:h-[480px] ">
             <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-2 ">
 
               {aboutData.map((item, itemIndex) => {

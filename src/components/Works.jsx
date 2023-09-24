@@ -76,13 +76,14 @@ const Works = () => {
   return (
     <>
              
-      <motion.div variants={textVariant()}>
-        {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
+      {/* <motion.div variants={textVariant()}> */}
+      <div >
+      
         
     <ParticlesContainer />
         <TypingText title="| My work"  />
         <h2 className={`${styles.sectionHeadText}`}>Projects <span className='text-[#4dee60]'>.</span></h2>
-      </motion.div>
+      </div>
 
       <div className='w-full text-[12px] xl:text-[16px] flex'>
         <motion.p
