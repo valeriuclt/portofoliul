@@ -94,14 +94,14 @@ const Hero = () => {
   return (
     <section className={`relative  h-screen mx-auto `} >
 
-      <div className="h-[80%] w-full bg-primary/30 ml-16 px-8 pt-16 ">
-        <div className="container w-full h-full flex flex-col items-center xl:flex-row  xl:pl-20  gap-x-12  ">
+      <div className="h-[80%] w-full bg-primary/30 xl:ml-16 ml px-8 pt-16 ">
+        <div className="container w-full h-full flex flex-col items-center xl:flex-row  xl:pl-20 xl:py-8 py-12 gap-x-12  ">
 
 
           {/* textul  */}
-          <div className=" flex flex-col justify-center ml-20 ">
+          <div className=" flex flex-col justify-center xl:ml-20 pt-8  ml-4 ">
 
-            <h1 className={`${styles.heroHeadText} text-white`}>
+            <h1 className={`${styles.heroHeadText} text-white `}>
               Hi, I'm <span className='text-[#4dee60]'>Valeriu</span>
             </h1>
             <div>
@@ -124,7 +124,7 @@ const Hero = () => {
 
             <motion.p
               variants={fadeIn('right', 0.4)} initial='hidden' animate='show' exit='hidden'
-              className="max-w-[600px] mx-auto pt-4 xl:mx-0 mb-6 xl:mb-12   xl:px-0 text-[12px] xl:text-[17px]">
+              className="max-w-[600px] mx-auto pt-4 xl:mx-0 mb-6 xl:mb-12  xl:px-0 text-[13px] xl:text-[17px]">
               Some years ago, I began freelancing as a developer . Since than, i 've done remote work for agencies, consulted for startups and collaborated on digital products for bussiness and consumer use. '
             </motion.p>
             </div>
@@ -133,7 +133,7 @@ const Hero = () => {
           {/* info  */}
           <motion.div
             variants={fadeIn('left', 0.4)} initial='hidden' animate='show' exit='hidden'
-            className=" xl:flex xl:pl-24 xl:pt-24 flex-col xl:max-w-[50%] w-full xl:justify-between xl:h-[480px] ">
+            className="bg-white/30 xl:flex xl:pl-24 xl:pt-24 pt-8 pl-8 flex-col xl:max-w-[50%] w-full xl:justify-between xl:h-[480px] ">
             <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-2 ">
 
               {aboutData.map((item, itemIndex) => {

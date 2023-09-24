@@ -75,10 +75,11 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-    <ParticlesContainer />
              
       <motion.div variants={textVariant()}>
         {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
+        
+    <ParticlesContainer />
         <TypingText title="| My work"  />
         <h2 className={`${styles.sectionHeadText}`}>Projects <span className='text-[#4dee60]'>.</span></h2>
       </motion.div>
