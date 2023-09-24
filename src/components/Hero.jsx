@@ -110,13 +110,14 @@ const Hero = () => {
               <p
                 className='mt-4 text-secondary xl:text-[17px]  text-[12px] max-w-3xl leading-[26px] '
               >
-                I develop 3D visuals, user <br className='sm:block hidden' />
+                I develop visuals, user <br className='sm:block hidden' />
                 interfaces and web applications
               </p>
               <motion.div
                 variants={fadeIn('right', 0.2)} initial='hidden' animate='show' exit='hidden'
                 className={`${styles.heroSubText} mt-4 `}>
-              </motion.div></div>
+              </motion.div>
+           
             <motion.h2 variants={fadeIn('right', 0.2)} initial='hidden' animate='show' exit='hidden' className="h2">
               Captivating <span className="text-accent">stories</span> birth magnificent designs.
             </motion.h2>
@@ -126,7 +127,7 @@ const Hero = () => {
               className="max-w-[600px] mx-auto pt-4 xl:mx-0 mb-6 xl:mb-12   xl:px-0 text-[12px] xl:text-[17px]">
               Some years ago, I began freelancing as a developer . Since than, i 've done remote work for agencies, consulted for startups and collaborated on digital products for bussiness and consumer use. '
             </motion.p>
-
+            </div>
 
           </div>
           {/* info  */}
