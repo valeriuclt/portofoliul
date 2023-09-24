@@ -6,10 +6,8 @@ import { TitleText } from './index';
 import {   TypingText } from './index';
 import { styles } from "../style";
 import { useState } from 'react';
-import { ExploreCard } from "./index";
-// import { SectionWrapper } from "../hoc";
-// import { projects } from "../constants";
-import { fadeIn, textVariant,staggerContainer } from "../utils/motion";
+import { ExploreCard } from "./index"; 
+import { staggerContainer } from "../utils/motion";
 import { exploreWorlds } from "../constants";
 
 const Works2 = () => {

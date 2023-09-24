@@ -35,6 +35,7 @@ import retete from "./retete.png";
 import restaurant from "./restaurant.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import pizza from "./pizza.png";
 
 export {
   logo,
@@ -55,6 +56,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  pizza,
   reactjs,
   redux,
   tailwind,

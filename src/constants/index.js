@@ -21,11 +21,11 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
+ pizza,
     travel,
     util,
     jobit,
-    tripguide,
+  
     retete,
     restaurant,
     threejs,
@@ -38,30 +38,41 @@ import {
       // imgUrl: '/planet-01.png',
       imgUrl: '/p01.png',
       title: 'Luxury Hotel',
+      text:'un excelent site de prezentare cu un design memorabil prin simplitatea lui'
     },
     {
       id: 'world-2',
    
       imgUrl: '/p02.png',
       title: 'Car rental',
+      
+      text:'un site util pentru a afla caracteristicile si pretul de inchiriere a unor masini.'
+
     },
     {
       id: 'world-3',
       // imgUrl: '/planet-03.png',
       imgUrl: '/p03.png',
-      title: 'Sport App',
+      title: 'Sport App',      
+      text:'Daca vrei sa afli care sunt exercitiile pe care ar trebui sa le faci ...'
+
     },
     {
       id: 'world-4',
       // imgUrl: '/planet-04.png',
       imgUrl: '/p04.png',
-      title: 'Blog personal',
+      title: 'Blog personal',     
+      text:'un excelent site de prezentare a portofoliul axat pe promovarea personala'
+
     },
     {
       id: 'world-5',
       // imgUrl: '/planet-05.png',
       imgUrl: '/p05.png',
       title: 'Real Estate app',
+      
+      text:'un site dedicat pentru promovarea ofertelor unei companii de imobiliare'
+
     },
   ];
   
@@ -328,6 +339,25 @@ import {
         },
       ],
       image:restaurant,
+      source_code_link: "https://github.com/",
+    },
+ 
+    {
+      name: "Pizza App",
+      description:
+        "A  Pizza Delivery App using motion layout for complex animations  .   ",
+      tags: [
+        {
+          name: "tailwind",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+       
+      ],
+      image:pizza,
       source_code_link: "https://github.com/",
     },
   ];

@@ -17,9 +17,9 @@ const App =() => {
           <Hero />
         </div>
         <About />
-        <div className='green-pink-gradient z-0' /> 
+     
         <Experience />
-        <Tech />
+        {/* <Tech /> */}
         <Works />
         <Works2 />
         <Feedbacks />
