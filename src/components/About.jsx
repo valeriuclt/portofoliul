@@ -8,6 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import{TypingText} from'./index';
 
+
 const ServiceCard = ({ index, title, icon }) => (
     <Tilt className='xs:w-[250px] w-full'>
      
@@ -41,6 +42,7 @@ const About = () => {
   return (
     <>
         <div  >
+          
 <div className="absolute -left-72 -bottom-8 rotate-12 mix-blend-color-dodge animate-pulse duration-75 z-10 w-[200px] xl:w-[260px]">
     <img src={'/bulb.png'} width={260} height={200} className="w-full h-full" alt="" />
   </div>
@@ -54,7 +56,7 @@ const About = () => {
     
        <motion.p
              variants={fadeIn("", "", 0.1, 1)}
-            className='mt-4 text-secondary xl:text-[18px]  text-[12px] max-w-3xl xl:leading-[28px] leading-normal '
+            className='mt-4 text-secondary xl:text-[18px]  text-[12px] max-w-3xl xl:leading-[26px] leading-normal '
           >
              I'm a skilled software developer with experience in TypeScript and
              JavaScript, and expertise in frameworks like React, Node.js, and

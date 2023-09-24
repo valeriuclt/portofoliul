@@ -92,14 +92,14 @@ const Hero = () => {
   console.log(index);
 
   return (
-    <section className={`relative w-full h-screen mx-auto`} >
+    <section className={`relative  h-screen mx-auto `} >
 
-      <div className="h-[80%] w-full bg-primary/30  px-8 pt-16 ">
-        <div className="container w-full h-full flex flex-col items-center xl:flex-row  xl:pl-44  gap-x-12  ">
+      <div className="h-[80%] w-full bg-primary/30 ml-16 px-8 pt-16 ">
+        <div className="container w-full h-full flex flex-col items-center xl:flex-row  xl:pl-20  gap-x-12  ">
 
 
           {/* textul  */}
-          <div className="flex-1 flex flex-col justify-center ">
+          <div className=" flex flex-col justify-center ml-20 ">
 
             <h1 className={`${styles.heroHeadText} text-white`}>
               Hi, I'm <span className='text-[#4dee60]'>Valeriu</span>
@@ -193,10 +193,10 @@ const Hero = () => {
         {/* counters  */}
         <motion.div
           variants={fadeIn('right', 0.6)} initial='hidden' animate='show' exit='hidden'
-          className="hidden xl:flex w-[80%] pl-40  ">
-          <div className="flex flex-1 pl-8 xl:gap-x-6  ">
+          className="hidden xl:flex  w-[90%] xl:pl-20 ">
+          <div className="flex flex-1  pl-8 xl:gap-x-6 mx-8 ">
             {/* experienta  */}
-            <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+            <div className="relative flex-1  justify-between after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
               <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2 ">
                 <CountUp start={0} end={2} duration={5} /> +
               </div>

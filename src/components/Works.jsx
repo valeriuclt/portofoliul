@@ -8,6 +8,9 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import { ParticlesContainer } from './canvas';
+
+
 import {   TypingText } from './index';
 
 const ProjectCard = ({
@@ -72,6 +75,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
+    <ParticlesContainer />
              
       <motion.div variants={textVariant()}>
         {/* <p className={`${styles.sectionSubText} `}>My work</p> */}

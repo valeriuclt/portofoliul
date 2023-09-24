@@ -46,7 +46,7 @@ import {
       imgUrl: '/p02.png',
       title: 'Car rental',
       
-      text:'un site util pentru a afla caracteristicile si pretul de inchiriere a unor masini.'
+      text:'un site util pentru a afla caracteristicile si pretul de inchiriere.'
 
     },
     {
@@ -62,7 +62,7 @@ import {
       // imgUrl: '/planet-04.png',
       imgUrl: '/p04.png',
       title: 'Blog personal',     
-      text:'un excelent site de prezentare a portofoliul axat pe promovarea personala'
+      text:'un excelent site de prezentare a portofoliului axat pe promovarea personala'
 
     },
     {
@@ -345,7 +345,7 @@ import {
     {
       name: "Pizza App",
       description:
-        "A  Pizza Delivery App using motion layout for complex animations  .   ",
+        "A  Pizza Delivery App using motion layout for complex animations. Choose and pay your favorite pizza :)    ",
       tags: [
         {
           name: "tailwind",
